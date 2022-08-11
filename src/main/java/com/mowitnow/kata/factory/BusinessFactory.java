@@ -4,8 +4,6 @@ import com.mowitnow.kata.business.InstructionBusiness;
 import com.mowitnow.kata.business.InstructionBusinessImpl;
 import com.mowitnow.kata.business.MowerBusiness;
 import com.mowitnow.kata.business.MowerBusinessImpl;
-import com.mowitnow.kata.parser.LineParserImpl;
-import com.mowitnow.kata.parser.MowerParserImpl;
 
 public class BusinessFactory {
     public InstructionBusiness buildInstructionBusinessImpl() {

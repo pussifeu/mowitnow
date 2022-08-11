@@ -1,6 +1,5 @@
 package com.mowitnow.kata.exceptions;
 
-import java.io.Serializable;
 
 public enum MowerMessage {
 	INCORRECT_DATA ("Incorrect data"), INCORRECT_ORIENTATION ("Incorrect orientation"),
