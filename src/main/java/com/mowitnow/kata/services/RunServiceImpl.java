@@ -64,7 +64,6 @@ public class RunServiceImpl implements RunService {
     private List<MowerBean> scanNextLines(MowerParserBean parser, Scanner scanner) throws MowerException {
         List<MowerBean> positions = new ArrayList<>();
         while (scanner.hasNext()) {
-            // lecture de la positon initiale de la tondeuse
             parser.setCoordinate(scanner.nextLine());
             if (scanner.hasNext()) {
                 parser.setInstructions(scanner.nextLine());

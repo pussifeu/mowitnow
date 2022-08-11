@@ -2,12 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>mowitnow</groupId>
-    <artifactId>mowitnow</artifactId>
+    <groupId>com.mowitwow</groupId>
+    <artifactId>kata</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-
-    <name>mowitnow</name>
+    <name>kata</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -30,11 +29,6 @@
             <artifactId>lombok</artifactId>
             <version>1.18.20</version>
             <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>javax.inject</groupId>
-            <artifactId>javax.inject</artifactId>
-            <version>1</version>
         </dependency>
 
     </dependencies>
